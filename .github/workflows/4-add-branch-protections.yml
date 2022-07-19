@@ -48,7 +48,6 @@ jobs:
       - name: Update to step 5
         uses: skills/action-update-step@main
         with:
-          fetch-depth: 0 # Let's get all the branches
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 4
           to_step: 5
